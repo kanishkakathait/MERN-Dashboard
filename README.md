@@ -129,37 +129,6 @@ Ensure to replace `YOUR_MONGODB_URL` with your actual MongoDB URL. The `PORT` va
 
 **Note**: Environment variables containing sensitive information like API keys, database credentials, or any other secrets should not be committed to version control. Ensure that the `.env` files are included in your project's `.gitignore` file to prevent accidental exposure of sensitive data.
 
-### Getting started
-
-1. Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/Shivam-Sharma-1/Dashboard.git
-```
-
-2. Change to the project directory:
-
-```bash
-cd dashboard
-```
-
-3. Install and run client dependencies:
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-4. Install and run server dependencies:
-
-```bash
-cd server
-npm install
-npm run dev
-```
-
-Open your web browser and visit http://localhost:5173 to see the website in action during development.
 
 ## Folder Structure
 
@@ -203,18 +172,5 @@ This structure separates the client and server codebases for better organization
 - Start the client: `npm run dev` within the `client` directory.
 
 
-Certainly! Here's the documentation section with relevant links:
-
-## Documentation
-
-- **[React Documentation](https://reactjs.org/docs/getting-started.html)**: Explore React documentation for building user interfaces.
-- **[Nivo Documentation](https://nivo.rocks/docs/)**: Discover Nivo documentation for data visualization components in React.
-- **[Material-UI Documentation](https://mui.com/getting-started/usage/)**: Dive into Material-UI documentation for React UI components.
-- **[Express.js Documentation](https://expressjs.com/en/starter/installing.html)**: Learn more about Express.js for building web applications with Node.js.
-- **[MongoDB Documentation](https://docs.mongodb.com/)**: Explore MongoDB documentation for NoSQL database management.
-- **[Mongoose Documentation](https://mongoosejs.com/docs/)**: Refer to Mongoose documentation for MongoDB object modeling in Node.js.
-- **[React Router DOM Documentation](https://reactrouter.com/web/guides/quick-start)**: Learn how to use React Router DOM for client-side routing within the application.
-
----
 
 
